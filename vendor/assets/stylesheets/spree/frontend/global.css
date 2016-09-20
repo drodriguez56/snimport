@@ -1,4 +1,9 @@
 #spree-header{
   background: black !important;
 }
-
+footer{
+  background-color: black;
+}
+.test{
+  color: white;
+}
