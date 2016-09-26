@@ -1,0 +1,25 @@
+footer{
+  background-color: #333333;
+  color: white;
+}
+footer div a{
+  color: white;
+  display: block;
+}
+footer .social a{
+  display: inline;
+  padding-right: 10px;
+}
+footer div a:hover,
+footer div a:focus,
+footer div a:active {
+  color: lightgrey;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+footer .row{
+  margin: 0;
+  padding: 100px;
+}

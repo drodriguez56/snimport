@@ -28,7 +28,7 @@ gem 'spree_auth_devise', '~> 3.1.0'
 gem 'spree_gateway', '~> 3.1.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem "font-awesome-rails"
 gem 'spree_i18n', :github => 'spree/spree_i18n'
 
 # Use Unicorn as the app server

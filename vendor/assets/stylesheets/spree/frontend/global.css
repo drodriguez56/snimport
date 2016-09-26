@@ -1,9 +1,15 @@
 #spree-header{
   background: black !important;
 }
-footer{
-  background-color: black;
+body{
+  height: 100% !important;
+  width: 100%;
+  position: absolute;    
 }
-.test{
-  color: white;
+.container{
+  min-height: 82%;
+  position: relative;
+}
+.snimport-para-empresas a{
+  float: right;
 }
