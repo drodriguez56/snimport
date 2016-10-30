@@ -11,7 +11,8 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-
+  Spree::Core::Engine.routes.draw do
+    get '/landing' => "home#landing"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
@@ -60,4 +61,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+end
 end
